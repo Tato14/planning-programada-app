@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.streamlit/secrets.toml
+.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+~$*.xlsx
+*.tmp
+
+# --- Dades personals: MAI al repo ---
+# Només es versionen la plantilla buida (plantilles/) i la demo fictícia (demo/DEMO_*).
+*.xlsx
+*.xls
+*.csv
+*.eml
+*.zip
+!plantilles/*.xlsx
+!demo/DEMO_*.xlsx
+# Per si de cas, encara que siguin dins de plantilles/ o demo/:
+*REAL*
+*Real*
